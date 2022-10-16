@@ -15,6 +15,11 @@ int main(){
     cout << b << endl;
     cout << "the size of float is " << sizeof(b) << endl;
 
+    // string 
+    string name = "niraj";
+    cout << name << endl;
+    cout << "the size of string is " << sizeof(b) << endl;
+
     // doubles
     double c = 1.22225;
     cout << c << endl;     
@@ -29,6 +34,8 @@ int main(){
     bool e = true; // true = 1; false = 0;
     cout << e << endl;
     cout << "the size of boolean is " << sizeof(e) << endl;
+
+   
 
     // unsigned int
 
@@ -55,5 +62,7 @@ int main(){
     char h = 6464646464;
 
     cout << "The character on 97 value in ASCII table is " << h <<endl;
+
+    
     
 }

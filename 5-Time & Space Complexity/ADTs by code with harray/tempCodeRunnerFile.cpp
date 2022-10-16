@@ -1,0 +1,2 @@
+
+    struct AdtArr s1;
